@@ -15,7 +15,7 @@ import android.widget.ViewFlipper;
 public class MainActivity extends AppCompatActivity {
 
     ViewFlipper viewFlipper;
-
+//test
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
