@@ -6,19 +6,118 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
-    <ViewFlipper
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:id="@+id/flipper"/>
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3">
 
     <Button
-        android:id="@+id/bt_list"
-        android:layout_width="match_parent"
+        android:id="@+id/btn_previous"
+
+        android:layout_width="0dp"
+
         android:layout_height="match_parent"
+
         android:layout_weight="1"
-        android:text="장학금 보기" />
+
+        android:onClick="mOnClick"
+
+        android:text="PREVIOUS"
+
+        android:textSize="14sp" />
+
+
+
+    <ToggleButton android:id="@+id/toggle_auto"
+
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+
+        android:textOff="STOP"
+
+        android:textOn="AUTO"
+
+        android:textSize="14sp"/>
+
+
+
+    <Button android:id="@+id/btn_next"
+
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+
+        android:text="NEXT"
+
+        android:textSize="14sp"
+
+        android:onClick="mOnClick"/>
+
+
+
+</LinearLayout>
+
+
+    <ViewFlipper
+
+        android:id="@+id/flipper"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="200dp">
+
+
+        <ImageView
+
+            android:id="@+id/img01"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:src="@drawable/ad1" />
+
+
+        <ImageView
+
+            android:id="@+id/img02"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:src="@drawable/ad2" />
+
+
+        <ImageView
+
+            android:id="@+id/img03"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:src="@drawable/ad3" />
+
+        <ImageView
+
+            android:id="@+id/img04"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:src="@drawable/ad4" />
+
+
+    </ViewFlipper>
+
 
     <Button
         android:id="@+id/bt_matching"
@@ -26,6 +125,13 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:text="맞춤검색" />
+
+    <Button
+        android:id="@+id/bt_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="장학금 보기" />
 
     <LinearLayout
         android:layout_width="match_parent"
