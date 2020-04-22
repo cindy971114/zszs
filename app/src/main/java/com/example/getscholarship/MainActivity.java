@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                // TODO Auto-generated method stub
+                //TODO Auto-generated method stub
                 if (isChecked) {//On 으로 바뀌었으므로 ..자동 Flipping 시작..
                     flipper.setFlipInterval(3000);//플리핑 간격(2000ms)
                     flipper.startFlipping();//자동 Flipping 시작
