@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AutoScroll"></activity>
         <activity android:name=".MypageActivity" />
         <activity android:name=".FavoriteActivity" />
         <activity android:name=".NotificationActivity" />
