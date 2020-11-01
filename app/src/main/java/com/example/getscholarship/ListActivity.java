@@ -31,6 +31,7 @@ public class ListActivity extends AppCompatActivity {
         mainList.add(new Notice("국가장학금 인문100년장학금","국가","국가장학금 성적우수"));
         mainList.add(new Notice("국가장학금 일반상환 학자금대출","국가","국가장학금 성적우수"));
         mainList.add(new Notice("국가장학금 취업후상환 학자금대출","국가","국가장학금 성적우수"));
+        mainList.add(new Notice("국가장학금 구가우수장학금(이공계)","국가","국가장학금 성적우수"));
 
         mainList.add(new Notice("한밭대 성적우수 A","교내","한밭대학교 성적우수"));
         mainList.add(new Notice("한밭대 성적우수 B","교내","한밭대학교 성적우수"));
