@@ -1,35 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string-array name="name">
-    을지대학교
-    건양대학교
-    충남대학교
-    대전침례신학대학교
-    한남대학교
-    한밭대학교
-    대덕대학교
-    대전보건대학교
-    우송정보대학
-    대전과학기술대학교
-    한국폴리텍IV대학
-    대전대학교
-    대전신학대학교
-    목원대학교
-    배재대학교
-    우송대학교
+<string-array name="termSpinner">
+   <item> 충남대학교 </item>
+    <item> 한밭대학교 </item>
+    <item> 한국장학재단 </item>
 </string-array>
-<string-array name="type">
-    성적우수
-    소득구분
-    외국인
-    장애인
-    기타
+<string-array name="areaSpinner">
+   <item> 성적우수 </item>
+    <item> 소득구분 </item>
+    <item> 장애인 </item>
+    <item> 기타 </item>
+
 </string-array>
-<string-array name="anniver">
-    4년제
-    2~3년제
-    2~3,4년제
+<!--
+  <string-array name="anniver">
+
+    <item> 4년제 </item>
+    <item>  2~3년제 </item>
+    <item>  2~3,4년제 </item>
+
+
 </string-array>
+ -->
+
 
 
 </resources>
