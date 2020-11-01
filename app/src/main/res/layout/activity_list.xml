@@ -87,6 +87,23 @@
             android:dividerHeight="10dp"
             android:divider="#ffffff"></ListView>
     </LinearLayout>-->
-        
+
+    <ListView
+        android:id="@+id/mainListView"
+        android:layout_width="411dp"
+        android:layout_height="458dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:dividerHeight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.0">
+
+
+    </ListView>
+
 
 </LinearLayout>
