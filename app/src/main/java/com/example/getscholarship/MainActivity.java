@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 imageView1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_17_01"));
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.kosaf.go.kr/ko/notice.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=11829"));
                         startActivity(intent);
                     }
                 });
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                 imageView3.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_11_01"));
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bokjiro.go.kr/"));
                         startActivity(intent);
                     }
                 });

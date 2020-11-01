@@ -2,7 +2,11 @@ package com.example.getscholarship;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -48,11 +52,9 @@ public class ListActivity extends AppCompatActivity {
         mainList.add(new Notice("충남대 영탑B","교내","충남대학교 장애인"));
 
 
+
         mainadapter = new ListAdapter(getApplicationContext(), mainList);
         mainListView.setAdapter(mainadapter);
-
-
-
-
     }
+
 }
